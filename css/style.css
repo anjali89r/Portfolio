@@ -1,0 +1,72 @@
+/* YOUR CUSTOM STYLES */
+
+/* nav{
+    font-family: Lobster;
+    font-size: 25px;
+
+} */
+
+/* .pageOne{
+    background: url("../drop-of-water.jpg");
+    background-size: cover;
+    height: 800px;
+} */
+html,
+body,
+.view {
+    height: 100%;
+    font-family: Lobster;
+}
+
+.view {
+    background: url("../drip.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.page-scroll{
+    font-family: 'Playfair Display', serif;
+
+}
+
+.circle-text {
+    width:50%;
+}
+.circle-text:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    background: #880e4f;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.colorresume .circle-text:after {
+    background: #4dd0e1;
+}
+.colorskills .circle-text:after{
+    background: #aed581;
+}
+circlecolor .circle-text:after{
+    background: #880e4f;
+}
+.circle-text div {
+    float:left;
+    width:100%;
+    padding-top:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+    text-align:center;
+    color:white;
+}
+.panel{
+    display: none;
+}
+.panel.proactive{
+
+    display: block;
+}
